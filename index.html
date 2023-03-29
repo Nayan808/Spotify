@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Spotify - Music Anytime,Anywhere </title>
+    <link rel="StyleSheet" href="body.css">|
+
     <title> Spotify -By Nayan </title>
     <link rel="StyleSheet" href="body.css">
+
 </head>
 
 <body>
@@ -84,20 +89,22 @@
             <span id="songname">Unison Apature</span>
             <span class="songplay"></span>
             <span id="songtime"> 2:34     <i class=" fa-1.5x fa-solid fa-play"></i></span>
+            <button onclick="addSong()">Add Song</button>
         </div>
         </div>
     </div>
     <div class="bottom">
-        <input type="range" value="range" min="0" max="100">
-        <div id="bottons">
-            <i class=" fa-2x fa-solid fa-backward"></i>
-            <i class=" fa-2x fa-solid fa-play"></i>
-            <i class=" fa-2x fa-solid fa-forward"></i>
+        
+        <input type="range" value = "0" min="0" max="300" id="timeOK">
+        <div class="forName">
+            <!-- <p>Stay - Justin Bieber </p> -->
+           </div>
+        <div class="playicons">
+          
+            <i class="fa-2x fa-solid fa-backward"></i>
+            <i class="far fa-2x fa-circle-play" id="play"></i>
+            <i class="fa-2x fa-solid fa-forward"></i>
             
-        </div>
-        <div class="songinfo">
-            <div class="tenor-gif-embed gif" data-postid="14677715" data-share-method="host" data-aspect-ratio="1.74863" data-width="100%"><a href="https://tenor.com/view/equalizer-music-sound-gif-14677715">Equalizer Music GIF</a>from <a href="https://tenor.com/search/equalizer-gifs">Equalizer GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-            <span> <h5> Unison_Apature </h5> </span> 
         </div>
     </div>
     <script src="https://kit.fontawesome.com/6891466ea5.js" crossorigin="anonymous"></script>
